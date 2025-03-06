@@ -7,6 +7,6 @@ public class Node<T> {
   
   public Node(T value) {
     this.value = value;
-    children = new ArrayList<>();
+    this.children = new ArrayList<>();
   }
 }
